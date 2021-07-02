@@ -1,1 +1,1 @@
-# React-Js-ourses
+# React-Js-Сourses
