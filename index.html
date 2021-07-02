@@ -3,18 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="main.js"></script>
     <title>ReactJS course </title>
 </head>
-<script>
+
+<script type="text/javascript">
     fetch('data.json')
         .then((response) => {
             return response.json();
     })
     .then((data) => {
+        var body = document.getElementById('app')
         console.log(data);
+
+        var img = document.createElement('img')
+        img.src = data.people[1].image
+        img.width = 200
+        boby.appendChild(img)
+
+      
+    });
+
+    fetch('test.html')
+        .then((response) => {
+            return response.json();
+    })
+    .then((data) => {
+        var body = document.getElementById('app')
+
+        var p = document.createElement('p')
+        p.innerHTML = data
+        boby.appendChild(p)
     });
 </script>
-<body id="app">
-    
-</body>
+
+<body id="app"></body>
+dsfasad
 </html>
