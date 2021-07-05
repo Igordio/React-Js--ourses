@@ -192,6 +192,16 @@ h1 {
 p + p{
     margin-top: 30px;
 }
+article{
+    margin: 50px 0;
+}
+article p>img{
+    float: left;
+    margin: 0 19px 10px 0;
+}
+article p{
+    line-height: 26px;
+}
 
 /*Services section Start*/
 .servicesItem {
