@@ -55,6 +55,12 @@ body{
 html, body{
     overflow-x: hidden;
 }
+.sectionTitle{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
 .container{
     width: 1140px;
     max-width: 100%;
@@ -140,16 +146,30 @@ ul.infoWrap--sidebar__menu li{
     margin-bottom: 40px;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: end;
     flex-direction: row-reverse;
+}
+.autorInfo--image {
+    width: 400px;
+    max-width: 100%;
+    height: 400px;
 }
 .aboutAutor {
     text-align: center;
+    max-width: 350px;
+    width: 100%;
 }
 .autorInfo--image img {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+}
+p.autorInfo--description{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
 }
 h1 {
     font-size: 60px;
@@ -159,11 +179,11 @@ h1 {
 .autorInfo--name, .autorInfo--date{
     font-size: 22px;
 }
-p.autorInfo--description {
+/* p.autorInfo--description {
     font-size: 16px;
     line-height: 26px;
     font-weight: 600;
-}
+} */
 .infoWrap--contentBottm p{
     font-size: 16px;
     line-height: 26px;
@@ -172,18 +192,15 @@ p.autorInfo--description {
 p + p{
     margin-top: 30px;
 }
-p.autorInfo--description {
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 600;
-}
-
 
 /*Services section Start*/
 .servicesItem {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+}
+.servicesItem:last-of-type{
+    margin-bottom: 0;
 }
 .servicesItem:nth-child(2n){
     flex-direction: row-reverse;
@@ -236,7 +253,7 @@ footer {
 }
 .footerMenu{
     width: 100%;
-    max-width: 900px;
+    max-width: 770px;
     margin: 0 auto;
     display: block;
     margin-bottom: 40px;
@@ -245,4 +262,8 @@ footer {
     display: flex;
     align-content: center;
     justify-content: space-around;
+}
+.footerMenu nav ul li>a{
+    color: #000;
+    text-decoration: none;
 }
