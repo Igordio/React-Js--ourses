@@ -7,36 +7,118 @@
     <title>ReactJS course </title>
 </head>
 
-<script type="text/javascript">
-    fetch('data.json')
-        .then((response) => {
-            return response.json();
-    })
-    .then((data) => {
-        var body = document.getElementById('app')
-        console.log(data);
+<!--<script type="text/javascript">-->
+<!--    fetch('data.json')-->
+<!--        .then((response) => {-->
+<!--            return response.json();-->
+<!--    })-->
+<!--    .then((data) => {-->
+<!--        var body = document.getElementById('app')-->
+<!--        console.log(data);-->
 
-        var img = document.createElement('img')
-        img.src = data.people[1].image
-        img.width = 200
-        boby.appendChild(img)
+<!--        var img = document.createElement('img')-->
+<!--        img.src = data.people[1].image-->
+<!--        img.width = 200-->
+<!--        boby.appendChild(img)-->
 
-      
-    });
+<!--      -->
+<!--    });-->
 
-    fetch('test.html')
-        .then((response) => {
-            return response.json();
-    })
-    .then((data) => {
-        var body = document.getElementById('app')
+<!--    fetch('test.html')-->
+<!--        .then((response) => {-->
+<!--            return response.json();-->
+<!--    })-->
+<!--    .then((data) => {-->
+<!--        var body = document.getElementById('app')-->
 
-        var p = document.createElement('p')
-        p.innerHTML = data
-        boby.appendChild(p)
-    });
-</script>
+<!--        var p = document.createElement('p')-->
+<!--        p.innerHTML = data-->
+<!--        boby.appendChild(p)-->
+<!--    });-->
+<!--</script>-->
 
 <body id="app"></body>
-dsfasad
+    <header>
+        <div class="container">
+            <div class="headerWrap">
+                <div class="headerWrapItem mainLogo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ikea_logo.svg/800px-Ikea_logo.svg.png" alt="">
+                </div>
+                <div class="headerWrapItem">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">Menu 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Menu 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Menu 3</a>
+                            </li>
+                            <li>
+                                <a href="#">Menu 4</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="infoWrap">
+        <div class="container">
+            <div class="infoWrap__allContent">
+                <aside class="infoWrap--sidebar">
+                    <nav>
+                        <ul class="infoWrap--sidebar__menu">
+                            <li>
+                                <a href="#">Aside 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Aside 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Aside 3</a>
+                            </li>
+                            <li>
+                                <a href="#">Aside 4</a>
+                            </li>
+                            <li>
+                                <a href="#">Aside 5</a>
+                            </li>
+                            <li>
+                                <a href="#">Aside 6</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </aside>
+
+                <div class="infoWrap--content">
+                    <div class="infoWrap--contentTop">
+                        <div class="aboutAutor">
+                            <h1>Title H1</h1>
+                            <span class="autorInfo--name">Autor Namr</span>
+                            <span class="autorInfo--date">11.02.1985</span>
+                        </div>
+                        <div class="autorInfo--image">
+                            <img src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="infoWrap--contentBottm">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error fuga mollitia nostrum numquam. Aliquid animi architecto cumque, debitis enim fuga fugiat magnam molestias non obcaecati odio odit placeat reiciendis voluptate?
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error fuga mollitia nostrum numquam. Aliquid animi architecto cumque, debitis enim fuga fugiat magnam molestias non obcaecati odio odit placeat reiciendis voluptate?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error fuga mollitia nostrum numquam. Aliquid animi architecto cumque, debitis enim fuga fugiat magnam molestias non obcaecati odio odit placeat reiciendis voluptate?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error fuga mollitia nostrum numquam. Aliquid animi architecto cumque, debitis enim fuga fugiat magnam molestias non obcaecati odio odit placeat reiciendis voluptate?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error fuga mollitia nostrum numquam. Aliquid animi architecto cumque, debitis enim fuga fugiat magnam molestias non obcaecati odio odit placeat reiciendis voluptate?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; ReactJS | 2021</p>
+    </footer>
+
 </html>
