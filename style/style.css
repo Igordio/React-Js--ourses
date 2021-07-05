@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*Custom CSS Start*/
+.container{
+    width: 1140px;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.headerWrap {
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.mainLogo img{
+    width: 100%;
+    max-width: 150px;
+}
+.headerWrapItem{
+    width: 50%;
+}
+.headerWrapItem nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+.headerWrapItem nav ul li>a{
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.infoWrap{
+    padding: 50px 0;
+    margin-bottom: 80px;
+    background: #0057ad;
+    color: #fff;
+}
+.infoWrap__allContent {
+    display: flex;
+}
+.infoWrap .infoWrap--sidebar{
+    width: 30%;
+
+}
+ul.infoWrap--sidebar__menu {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+ul.infoWrap--sidebar__menu li{
+    padding: 15px 0;
+
+}
+.infoWrap--sidebar__menu li>a{
+    color: #d0dc6e;
+    padding: 20px 0;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.infoWrap--sidebar__menu li>a:hover{
+    color: white;
+    font-weight: 600;
+    transition: all .5s ease;
+}
+.infoWrap .infoWrap--content{
+    width: 70%;
+}
+.infoWrap--contentTop {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.aboutAutor {
+    text-align: center;
+}
+.autorInfo--image img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+h1 {
+    font-size: 60px;
+    letter-spacing: 5.5px;
+    margin-bottom: 20px;
+}
+.autorInfo--name, .autorInfo--date{
+    font-size: 22px;
+}
+p.autorInfo--description {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.infoWrap--contentBottm p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+p + p{
+    margin-top: 30px;
+}
+p.autorInfo--description {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: gray;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+}
