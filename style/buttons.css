@@ -1,7 +1,7 @@
-.startWrap__btnGroup{
+.btnGroup{
     margin: 0 auto;
 }
-.startWrap__btnGroup__btn{
+.btnGroup__btn{
     width: 300px;
     height: 50px;
     display: block;
@@ -12,39 +12,38 @@
     transition: all .5s ease;
     color: white;
 }
-.startWrap__btnGroup__btn:hover{
+.btnGroup__btn:hover{
     color: black;
 }
 /*Button Red START*/
-.startWrap__btnGroup__btn.btn-red{
+.btnGroup__btn.btnGroup__btn--red{
     background-color: red;
-    color: #fff;
     border-color: red;
 }
-.startWrap__btnGroup__btn.btn-red:hover{
+.btnGroup__btn.btnGroup__btn--red:hover{
     background-color: transparent;
 }
 /*Button Red END*/
 
 /*Button Green START*/
-.startWrap__btnGroup__btn.btn-green{
+.btnGroup__btn.btnGroup__btn--green{
     background-color: green;
     color: #fff;
     border-color: green;
 }
-.startWrap__btnGroup__btn.btn-green:hover{
+.btnGroup__btn.btnGroup__btn--green:hover{
     background-color: transparent;
     color: black;
 }
 /*Button Green END*/
 
 /*Button Image START*/
-.startWrap__btnGroup__btn.btn-image{
+.btnGroup__btn.btnGroup__btn__image{
     position: relative;
     background: grey;
     border-color: gainsboro;
 }
-.startWrap__btnGroup__btn.btn-image img{
+.btnGroup__btn.btnGroup__btn__image img.btnGroup__btn__image-img{
     position: absolute;
     left: 20px;
     top: 50%;
@@ -52,19 +51,19 @@
     width: 40px;
     transition: all .3s ease-in-out;
 }
-.startWrap__btnGroup__btn.btn-image:hover{
+.btnGroup__btn.btnGroup__btn__image:hover{
     background-color: transparent;
 }
 /*Button Image END*/
 
 /*Button Icon START*/
-.startWrap__btnGroup__btn.btn-icon{
+.btnGroup__btn.btnGroup__btn__icon{
     background-color: #0057ad;
     border-color: #0057ad;
     position: relative;
 
 }
-.startWrap__btnGroup__btn.btn-icon i{
+.btnGroup__btn.btnGroup__btn__icon i{
     color: aqua;
     position: absolute;
     left: 30px;
@@ -72,9 +71,9 @@
     top: 50%;
     transform: translateY(-50%);
 }
-.startWrap__btnGroup__btn.btn-icon:hover{
+.btnGroup__btn.btnGroup__btn__icon:hover{
     background-color: transparent;
 }
-.startWrap__btnGroup__btn.btn-icon:hover i{
+.btnGroup__btn.btnGroup__btn__icon:hover i.btnGroup__btn__icon-icon {
     color: red;
 }
