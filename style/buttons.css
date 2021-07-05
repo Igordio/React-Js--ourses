@@ -1,0 +1,80 @@
+.startWrap__btnGroup{
+    margin: 0 auto;
+}
+.startWrap__btnGroup__btn{
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    border: 1px solid;
+    cursor: pointer;
+    transition: all .5s ease;
+    color: white;
+}
+.startWrap__btnGroup__btn:hover{
+    color: black;
+}
+/*Button Red START*/
+.startWrap__btnGroup__btn.btn-red{
+    background-color: red;
+    color: #fff;
+    border-color: red;
+}
+.startWrap__btnGroup__btn.btn-red:hover{
+    background-color: transparent;
+}
+/*Button Red END*/
+
+/*Button Green START*/
+.startWrap__btnGroup__btn.btn-green{
+    background-color: green;
+    color: #fff;
+    border-color: green;
+}
+.startWrap__btnGroup__btn.btn-green:hover{
+    background-color: transparent;
+    color: black;
+}
+/*Button Green END*/
+
+/*Button Image START*/
+.startWrap__btnGroup__btn.btn-image{
+    position: relative;
+    background: grey;
+    border-color: gainsboro;
+}
+.startWrap__btnGroup__btn.btn-image img{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    transition: all .3s ease-in-out;
+}
+.startWrap__btnGroup__btn.btn-image:hover{
+    background-color: transparent;
+}
+/*Button Image END*/
+
+/*Button Icon START*/
+.startWrap__btnGroup__btn.btn-icon{
+    background-color: #0057ad;
+    border-color: #0057ad;
+    position: relative;
+
+}
+.startWrap__btnGroup__btn.btn-icon i{
+    color: aqua;
+    position: absolute;
+    left: 30px;
+    font-size: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.startWrap__btnGroup__btn.btn-icon:hover{
+    background-color: transparent;
+}
+.startWrap__btnGroup__btn.btn-icon:hover i{
+    color: red;
+}

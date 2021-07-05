@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="main.js"></script>
     <title>ReactJS course </title>
+
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/buttons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+          integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
 
 <!--<script type="text/javascript">-->
@@ -45,10 +50,10 @@
     <header>
         <div class="container">
             <div class="headerWrap">
-                <div class="header__logo">
+                <div class="headerWrap__logo">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ikea_logo.svg/800px-Ikea_logo.svg.png" alt="">
                 </div>
-                <div class="header__menu">
+                <div class="headerWrap__menu">
                     <nav class="mainMenu">
                         <ul>
                             <li>
@@ -187,5 +192,22 @@
         </div>
         <p>&copy; ReactJS | 2021</p>
     </footer>
+
+    <section class="start">
+        <div class="container">
+            <div class="startWrap">
+                <div class="startWrap__btnGroup">
+                    <button type="button" class="startWrap__btnGroup__btn btn-red">Red</button>
+                    <button type="button" class="startWrap__btnGroup__btn btn-green">Green</button>
+                    <button type="button" class="startWrap__btnGroup__btn btn-image">Image
+                        <img src="https://cdn.pixabay.com/photo/2017/05/03/23/39/ok-2282499_640.png" alt="">
+                    </button>
+                    <button type="button" class="startWrap__btnGroup__btn btn-icon">
+                        <i class="fab fa-algolia"></i>Icon
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </html>

@@ -84,11 +84,11 @@ header{
 .header__logo{
     width: 30%;
 }
-.header__logo img{
+.headerWrap__logo img{
     width: 100%;
     max-width: 150px;
 }
-.header__menu{
+.headerWrap__menu{
     width: 70%;
 }
 .header__menu nav ul{
@@ -224,7 +224,7 @@ article p{
     margin: 0 auto;
 }
 .servicesItem__image img{
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
 }
 h3.servicesItem__content--title {
@@ -255,6 +255,11 @@ a.servicesItem__content--btn:hover{
     background-color: rgb(233, 199, 159);
     box-shadow: none
 }
+
+.start{
+    padding: 50px 0;
+}
+
 footer {
     background-color: #dcdcdc;
     padding: 35px 0 15px;
