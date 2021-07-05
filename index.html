@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="main.js"></script>
     <title>ReactJS course </title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <!--<script type="text/javascript">-->
@@ -41,11 +45,11 @@
     <header>
         <div class="container">
             <div class="headerWrap">
-                <div class="headerWrapItem mainLogo">
+                <div class="header__logo">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ikea_logo.svg/800px-Ikea_logo.svg.png" alt="">
                 </div>
-                <div class="headerWrapItem">
-                    <nav>
+                <div class="header__menu">
+                    <nav class="mainMenu">
                         <ul>
                             <li>
                                 <a href="#">Menu 1</a>
@@ -65,7 +69,7 @@
             </div>
         </div>
     </header>
-    <div class="infoWrap">
+    <section class="infoWrap">
         <div class="container">
             <div class="infoWrap__allContent">
                 <aside class="infoWrap--sidebar">
@@ -116,8 +120,66 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="services">
+        <div class="servicesWrap">
+            <div class="servicesItem">
+                <div class="servicesItem__content">
+                    <div class="servicesItem__contentWrap">
+                        <h3 class="servicesItem__content--title">Service 1</h3>
+                        <p class="servicesItem__content--description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, quod eligendi tenetur delectus nostrum, velit molestiae aperiam tempora accusantium provident fuga quam deleniti maxime incidunt? Maiores laborum temporibus inventore deserunt</p>
+                        <a href="" class="servicesItem__content--btn">Read more</a>
+                    </div>
+                </div>
+                <div class="servicesItem__image">
+                    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="">
+                </div>
+            </div>
+            <div class="servicesItem">
+                <div class="servicesItem__content">
+                    <div class="servicesItem__contentWrap">
+                        <h3 class="servicesItem__content--title">Service 1</h3>
+                        <p class="servicesItem__content--description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, quod eligendi tenetur delectus nostrum, velit molestiae aperiam tempora accusantium provident fuga quam deleniti maxime incidunt? Maiores laborum temporibus inventore deserunt</p>
+                        <a href="" class="servicesItem__content--btn">Read more</a>
+                    </div>
+                </div>
+                <div class="servicesItem__image">
+                    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="">
+                </div>
+            </div>
+            <div class="servicesItem">
+                <div class="servicesItem__content">
+                    <div class="servicesItem__contentWrap">
+                        <h3 class="servicesItem__content--title">Service 1</h3>
+                        <p class="servicesItem__content--description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, quod eligendi tenetur delectus nostrum, velit molestiae aperiam tempora accusantium provident fuga quam deleniti maxime incidunt? Maiores laborum temporibus inventore deserunt</p>
+                        <a href="" class="servicesItem__content--btn">Read more</a>
+                    </div>
+                </div>
+                <div class="servicesItem__image">
+                    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
+        <div class="footerWrap">
+            <div class="container">
+                <div class="footerMenu">
+                    <nav>
+                        <ul>
+                            <li><a href="#">F-menu1</a></li>
+                            <li><a href="#">F-menu2</a></li>
+                            <li><a href="#">F-menu3</a></li>
+                            <li><a href="#">F-menu4</a></li>
+                            <li><a href="#">F-menu5</a></li>
+                            <li><a href="#">F-menu6</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
         <p>&copy; ReactJS | 2021</p>
     </footer>
 
