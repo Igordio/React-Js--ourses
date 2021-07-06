@@ -81,7 +81,7 @@ header{
     width: 100%;
     max-width: 150px;
 }
-.header__logo{
+.headerWrap__logo{
     width: 30%;
 }
 .headerWrap__logo img{
@@ -91,11 +91,11 @@ header{
 .headerWrap__menu{
     width: 70%;
 }
-.header__menu nav ul{
+.headerWrap__menu nav ul{
     display: flex;
     justify-content: space-around;
 }
-.header__menu nav ul li>a{
+.headerWrap__menu nav ul li>a{
     font-size: 16px;
     color: black;
     text-transform: uppercase;

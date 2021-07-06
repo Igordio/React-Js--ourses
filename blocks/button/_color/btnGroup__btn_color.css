@@ -1,0 +1,21 @@
+/*Button Red START*/
+.btnGroup__btn.btnGroup__btn_color-red{
+    background-color: red;
+    border-color: red;
+}
+.btnGroup__btn.btnGroup__btn_color-red:hover{
+    background-color: transparent;
+}
+/*Button Red END*/
+
+/*Button Green START*/
+.btnGroup__btn.btnGroup__btn_color-green{
+    background-color: green;
+    color: #fff;
+    border-color: green;
+}
+.btnGroup__btn.btnGroup__btn_color-green:hover{
+    background-color: transparent;
+    color: black;
+}
+/*Button Green END*/

@@ -1,0 +1,16 @@
+.btnGroup__btn.btnGroup__btn_image{
+    position: relative;
+    background: grey;
+    border-color: gainsboro;
+}
+.btnGroup__btn.btnGroup__btn_image img.btnGroup__btn_image-img{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    transition: all .3s ease-in-out;
+}
+.btnGroup__btn.btnGroup__btn_image:hover{
+    background-color: transparent;
+}

@@ -1,0 +1,8 @@
+table.tablePrice td {
+    font-size:13px;
+    color:#354251;
+}
+table.tablePrice tr:hover td {
+    color:#354251;
+    cursor:default;
+}

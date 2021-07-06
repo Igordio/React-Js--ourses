@@ -1,0 +1,9 @@
+@import url("../default/__btn.css");
+@import url("../_color/btnGroup__btn_color.css");
+@import url("../_img/_image.css");
+@import url("../_icon/_icon.css");
+
+.btnGroup{
+    display: flex;
+    justify-content: space-between;
+}

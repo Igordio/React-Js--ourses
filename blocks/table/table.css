@@ -1,0 +1,12 @@
+@import url("../table/td/td.css");   
+@import url("../table/td_th/td_th.css");
+@import url("../table/td_th/th/th.css");
+@import url("../table/td_th/th/td.css");
+@import url("../table/tr/tr.css"); 
+
+table.tablePrice {
+    text-decoration: none;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
