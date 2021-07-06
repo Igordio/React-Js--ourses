@@ -6,3 +6,10 @@ table.tablePrice tr:hover td {
     color:#354251;
     cursor:default;
 }
+table.tablePrice tr:nth-child(2n) td{
+    color: #fff;
+}
+table.tablePrice tr:nth-child(2n):hover td{
+    color:#354251;
+}
+

@@ -1,12 +1,14 @@
-@import url("../table/td/td.css");   
-@import url("../table/td_th/td_th.css");
-@import url("../table/td_th/th/th.css");
-@import url("../table/td_th/th/td.css");
-@import url("../table/tr/tr.css"); 
+@import url("../table/tbody/tbody.css");   
+@import url("../table/thead/thead.css");
+@import url("../table/tbody/tr/tr.css");
+@import url("../table/tbody/tr/td/td.css");
+@import url("../table/tbody/tr/td_th/td_th.css"); 
+@import url("../table/tbody/tr/th/th.css");
 
 table.tablePrice {
     text-decoration: none;
     border-collapse: collapse;
     width: 100%;
     text-align: center;
+    margin: 40px 0;
 }
