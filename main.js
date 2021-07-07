@@ -1,8 +1,13 @@
-fetch('data.json')
-        .then((response) => {
-            return response.json();
+fetch('test.html')
+    .then((response) => {
+        return response.text();
     })
     .then((data) => {
         var body = document.getElementById('app')
-        // console.log(data);
+
+        var p = document.createElement('p')
+        p.innerHTML = data
+        boby.appendChild(p)
+
+
     });

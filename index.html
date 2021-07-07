@@ -16,36 +16,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 </head>
-
-<script type="text/javascript">
-   fetch('data.json')
-       .then((response) => {
-           return response.json();
-   })
-   .then((data) => {
-       var body = document.getElementById('app')
-       console.log(data);
-
-       var img = document.createElement('img')
-       img.src = data.people[1].image
-       img.width = 200
-       boby.appendChild(img)
-
-     
-   });
-
-   fetch('test.html')
-       .then((response) => {
-           return response.json();
+<!-- <script type="text/javascript">
+    fetch('data.json')
+        .then((response) => {
+            return response.json();
     })
     .then((data) => {
-        var body = document.getElementById('app')
+        console.log(data);
+        var img = document.createElement('img');
+        img.src = data.sample[1].imageurl;
+        document.getElementById('app').appendChild(img)
 
-        var p = document.createElement('p')
-        p.innerHTML = data
-        boby.appendChild(p)
+        var title = document.createElement('h1');
+        title.innerText = data.sample[1].description;
+        document.getElementById('app').appendChild(title)
+
+
     });
-</script>
+ </script> -->
+
+
 
 <body id="app"></body>
     <header>
