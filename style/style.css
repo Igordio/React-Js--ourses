@@ -59,7 +59,7 @@ html, body{
     overflow-x: hidden;
 }
 main{
-    margin-bottom: 150px;
+    margin-bottom: 122px;
 }
 .sectionTitle{
     text-align: center;
@@ -275,6 +275,8 @@ footer {
     left: 0;
     width: 100%;
     position: absolute;
+
+    box-sizing: border-box;
 }
 .footerMenu{
     width: 100%;
