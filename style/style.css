@@ -51,7 +51,10 @@ table {
 /*Custom CSS Start*/
 body{
     font-family: 'Montserrat', sans-serif !important;
+    min-height: 100vh;
+    position: relative;
 }
+
 html, body{
     overflow-x: hidden;
 }
@@ -265,6 +268,9 @@ footer {
     padding: 35px 0 15px;
     text-align: center;
     color: rgb(0, 0, 0);
+    bottom: 0;
+    left: 0;
+    position: absolute;
 }
 .footerMenu{
     width: 100%;
