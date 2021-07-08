@@ -3,40 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSON</title>
+    <title>Test page</title>
 </head>
-<!--<script>-->
-<!--    var a = +prompt('Введите преаое число');-->
-<!--    var b = +prompt('Введите второе число');-->
 
-<!--    var summ = (a + b)/2;-->
-
-<!--    alert(summ);-->
-
-<!--    // function fabs() {-->
-<!--    //     if (a >= 0)-->
-<!--    // }-->
-
-<!--    function perimeter (width, lenght) {-->
-<!--        return (lenght * 2) + (width * 2);-->
-<!--    }-->
-<!--    var user = prompt('Admin')-->
-<!--    alert('Hello ' + user)-->
-
-<!--</script>-->
 
 <script>
-    fetch('index.html')
-        .then((response) => {
-            return response.text();
-        })
-        .then((data) => {
-            var body = document.getElementById('appTest')
-
-            var p = document.createElement('p')
-            p.innerHTML = data
-            body.appendChild(p)
-        });
+    alert('Hello Script')
 </script>
 
 <body id="appTest">
