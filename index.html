@@ -17,42 +17,42 @@
 
 </head>
 <script type="text/javascript">
-    fetch('data.json')
-        .then((response) => {
-            return response.json();
-    })
-    .then((data) => {
-        console.log(data);
-        var img = document.createElement('img');
-        img.src = data.sample[1].imageurl;
-        document.getElementById('app').appendChild(img)
-
-        var title = document.createElement('h1');
-        title.innerText = data.sample[1].description;
-        document.getElementById('app').appendChild(title)
-    });
-
-    fetch('data.json')
-        .then((response) => {
-            return response.json();
-    })
-    fetch('test.html')
-        .then((response) => {
-            return response.text();
-        })
-        .then((data) => {
-            var body = document.getElementById('app')
-
-            var p = document.createElement('p')
-            p.innerHTML = data
-            body.appendChild(p)
-        });
+    // fetch('data.json')
+    //     .then((response) => {
+    //         return response.json();
+    // })
+    // .then((data) => {
+    //     console.log(data);
+    //     var img = document.createElement('img');
+    //     img.src = data.sample[1].imageurl;
+    //     document.getElementById('app').appendChild(img)
+    //
+    //     var title = document.createElement('h1');
+    //     title.innerText = data.sample[1].description;
+    //     document.getElementById('app').appendChild(title)
+    // });
+    //
+    // fetch('data.json')
+    //     .then((response) => {
+    //         return response.json();
+    // })
+    // fetch('test.html')
+    //     .then((response) => {
+    //         return response.text();
+    //     })
+    //     .then((data) => {
+    //         var body = document.getElementById('app')
+    //
+    //         var p = document.createElement('p')
+    //         p.innerHTML = data
+    //         body.appendChild(p)
+    //     });
  </script>
 
 
 
 <body id="app"></body>
-    <!-- <header>
+    <header>
         <div class="container">
             <div class="headerWrap">
                 <div class="headerWrap__logo">
@@ -256,6 +256,6 @@
             </div>
         </div>
         <p>&copy; ReactJS | 2021</p>
-    </footer> -->
+    </footer>
 
 </html>

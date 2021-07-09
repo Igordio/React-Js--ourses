@@ -5,6 +5,7 @@
 @import url("../table/tbody/tr/td_th/td_th.css"); 
 @import url("../table/tbody/tr/th/th.css");
 
+
 table.tablePrice {
     text-decoration: none;
     border-collapse: collapse;
