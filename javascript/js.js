@@ -22,28 +22,19 @@
 // alert( fib(4) );
 // alert( fib(5) );
 
-// function fib() {
-//     let loop = [1, 1];
-//     let btn = document.getElementById('btn');
-//     let number=document.getElementById('txtloop').value;
-//     for (let i = 2; i < number; i++)
-//      loop[i] = loop[i-1]+ loop[i-2];
-//      btn.addEventListener("click", function (fib){
-//
-//         document.getElementById('output').innerHTML=loop[number-1];
-// })
-//
+
+
+// function index (arr, el) {
+//     var i = 0
+//     if (el === arr[0]) {
+//         return 0
+//     } else {
+
+
+//     }
+//     index([1,2,3,4,5,6],3)
+
 // }
 
-function index (arr, el) {
-    var i = 0
-    if (el === arr[0]) {
-        return 0
-    } else {
 
-
-    }
-    index([1,2,3,4,5,6],3)
-
-}
 
