@@ -1,24 +1,18 @@
-function fib() {
-    let loop = [1, 1];
-    let btn = document.getElementById('btn');
-    let number=document.getElementById('txtloop').value;
-    
-    for (let i = 3; i < number; i++)
-        loop[i] = loop[i-1]+ loop[i-2];
+    function phib(n) {
+        var phi = (1 + Math.sqrt(5))/2
+        return (phi**n-(-phi)**-n)/(2*phi-1)
 
-        btn.onclick=(function() {
-            document.getElementById('output').innerHTML=loop[number-1]; 
-        })
+    
     }
-   
-   
 
-// function fib(num) {
-//     if (num < 2){
-//         return num;
-   
-//     }
-//     return fib(num - 1) + fib(num - 2);
-    
-//     console.log(fib(4));
-// }
+    function recalc (id){
+        result.innerText = phib(inpt.value)
+    }
+
+    var go = document.getElementById('go')
+    var inpt = document.getElementById('inpt')
+    var result = document.getElementById('result')
+
+    go.addEventListener("click", recalc)
+    inpt.addEventListener("change", recalc)
+
