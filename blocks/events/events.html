@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+</head>
+<style>
+    .colorGreen{
+        background: green;
+    }
+    .colorBlue{
+        background: blue;
+    }
+    .colorYellow{
+        background: yellow;
+    }
+    .block{
+        padding: 50px;
+        border: 2px solid black;
+    }
+    #main{
+        width: 100%;
+        max-width: 800px;
+        margin: 100px auto;
+    }
+
+</style>
+
+
+    <body id="main">
+        <div id="block_green" class="block">
+            <div id="block_blue" class="block">
+                <div id="block_yellow" class="block"></div>
+            </div>
+        </div>
+
+
+        <script>
+            var green = document.getElementById('block_green')
+            var blue = document.getElementById('block_blue')
+            var yellow = document.getElementById('block_yellow')
+
+            yellow.addEventListener('dblclick', function () {
+                yellow.classList.toggle('colorYellow');
+                blue.classList.toggle('colorBlue');
+                green.classList.toggle('colorGreen');
+            });
+
+        </script>
+    </body>
+</html>
