@@ -1,49 +1,14 @@
 
-// let btn = document.getElementById('btn');
-// let fieldNumber = document.getElementById('inpt');
+arr = [
+    () => console.log(1),
+    () => console.log(2),
+    () => console.log(3)
+]
+ifs = [
+    () => v === 1,
+    () => v === 2,
+    () => v === 3
+]
+let v = 2
 
-// btn.addEventListener("click", function (){
-
-//     return alert(fieldNumber.innerText = fieldNumber.value)
-// })
-
-// function fib(n) {
-//     let a = 1;
-//     let b = 1;
-//     for (let i = 3; i <= n; i++) {
-//         let c = a + b;
-//         a = b;
-//         b = c;
-//     }
-//     return b;
-// }
-
-// alert( fib(3) );
-// alert( fib(4) );
-// alert( fib(5) );
-
-// function fib() {
-//     let loop = [1, 1];
-//     let btn = document.getElementById('btn');
-//     let number=document.getElementById('txtloop').value;
-//     for (let i = 2; i < number; i++)
-//      loop[i] = loop[i-1]+ loop[i-2];
-//      btn.addEventListener("click", function (fib){
-//
-//         document.getElementById('output').innerHTML=loop[number-1];
-// })
-//
-// }
-
-function index (arr, el) {
-    var i = 0
-    if (el === arr[0]) {
-        return 0
-    } else {
-
-
-    }
-    index([1,2,3,4,5,6],3)
-
-}
-
+arr.find(function ())
