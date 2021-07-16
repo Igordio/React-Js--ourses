@@ -1,9 +1,0 @@
-table.tablePrice tr:nth-child(2n){
-    background: rgb(82, 82, 82);
-    color: #fff;
-}
-
-table.tablePrice tr:hover {
-    background-color:#f9fafb;
-    
-}

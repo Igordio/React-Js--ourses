@@ -1,0 +1,14 @@
+@import url("../__body/tablePrice__body.css");
+@import url("../__td/tablePrice__body__tr__td.css");
+@import url("../__td_color/tablePrice__body__tr__td_color.css");
+@import url("../__th_color/tablePrice__title__tr__th_color.css");
+@import url("../__title/tablePrice__title.css");
+@import url("../__title__tr/tablePrice__title__tr.css");
+
+.tablePrice {
+    text-decoration: none;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+}
